@@ -46,7 +46,7 @@
                         <tbody>
                             @foreach ($payments as $payment)
                                 <tr>
-                                    <td>{{ $payment->reservation->user->nombre }} {{ $payment->reservation->user->apellido }}</td>
+                                    <td>holi</td>
                                     <td>{{ $payment->reservation->consultant->nombre }} {{ $payment->reservation->consultant->apellido }}</td>
                                     <td>{{ $payment->reservation->reservation_date }}</td>
                                     <td>{{ $payment->reservation->start_time }}</td>
