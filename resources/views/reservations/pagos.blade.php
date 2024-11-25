@@ -54,7 +54,7 @@
                                     <td>{{ $payment->transaction_id }}</td>
                                     <td>{{ $payment->payer_id }}</td>
                                     <td>{{ $payment->payer_email }}</td>
-                                    {{-- <td>{{ $payment->reservation->total_amount }}</td>   --}}
+                                    <td>{{ $payment->reservation->total_amount }}</td>
                                 </tr>
                             @endforeach
                         </tbody>
