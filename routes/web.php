@@ -34,6 +34,7 @@ Route::resource('usuarios', UserController::class);
 
 Route::get('/reservations/pagos',[ReservationController::class,'showPayments'])->name('reservations.pagos');
 
+
 Route::get('/reservations/calendario',function(){
     return view('reservations.calendario');
 })->name('reservations.calendario');
@@ -48,6 +49,9 @@ Route::get('/asesor/calendario',function(){
 })->name('asesor.calendario');
 
 Route::get('asesor/fullcalendar',[ReservationController::class,'getReservationsAsesor'])->name('asesor.fullcalendar');
+
+
+Route::get('/cliente/pagos',[ReservationController::class,'showClientPayments'])->name('cliente.pagos');
 
 Route::get('/cliente/calendario',function(){
     return view('cliente.calendario');

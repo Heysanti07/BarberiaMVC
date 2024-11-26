@@ -267,4 +267,13 @@ class ReservationController extends Controller
         $payments = ReservationDetail::with(['reservation.user','reservation.consultant'])->get();
         return view('reservations.pagos', compact('payments'));
     }
+
+    public function showClientPayments(){
+        $userId = Auth::id();
+
+        $payments = ReservationDetail::whereHas('reservation',function($query) use ($userId){
+            $query->where('user_id',$userId);
+        })->get();
+        return view('cliente.pagos', compact('payments'));
+    }
 }

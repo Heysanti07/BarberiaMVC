@@ -57,7 +57,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link menu-link" href="#">
+                    <a class="nav-link menu-link" href="{{ route('cliente.pagos') }}">
                         <i class="ri-dashboard-2-line"></i> <span>Ver Pagos</span>
                     </a>
 
