@@ -65,7 +65,7 @@
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="email" class="form-label">{{ __('Correo Electronico') }}<span class="text-danger">*</span</label>
+                                    <label for="email" class="form-label">{{ __('Correo Electronico') }}<span class="text-danger">*</span></label>
                                     <input type="email" id="email" name="email" placeholder="Ingrese Correo Electronico" value="{{ old('email') }}"
                                      class="form-control pe-5 @error('email') is-invalid @enderror" required >
 
@@ -77,19 +77,7 @@
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="foto" class="form-label">{{ __('Foto (Opcional)') }}<span class="text-danger">*</span</label>
-                                    <input type="file" id="foto" name="foto" value="{{ old('foto') }}"
-                                     class="form-control pe-5 @error('foto') is-invalid @enderror">
-
-                                     @error('foto')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                    @enderror
-                                </div>
-
-                                <div class="mb-3">
-                                    <label class="form-label" for="password">{{ __('Contraseña') }}<span class="text-danger">*</span</label>
+                                    <label class="form-label" for="password">{{ __('Contraseña') }}<span class="text-danger">*</span></label>
                                         <input type="password" id="password" name="password"placeholder="Ingrese Contraseña" value="{{ old('password') }}"class="form-control pe-5 @error('passaword') is-invalid @enderror" required>
                                         @error('password')
                                         <span class="invalid-feedback" role="alert">
@@ -99,7 +87,7 @@
                                 </div>
 
                                 <div class="mb-3">
-                                    <label class="form-label" for="password-confirm">{{ __('Confirmar Contraseña') }}<span class="text-danger">*</span</label>
+                                    <label class="form-label" for="password-confirm">{{ __('Confirmar Contraseña') }}<span class="text-danger">*</span></label>
                                         <input type="password" id="password-confirm" name="password_confirmation"placeholder="Confirmar Contraseña" value="{{ old('password') }}"class="form-control" required>
                                 </div>
 

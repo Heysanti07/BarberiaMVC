@@ -64,6 +64,7 @@ Route::get('cliente/reserva',[ReservationController::class,'createCliente'])->na
 
 Route::post('/paypal', [ReservationController::class,'completePayment']);
 
+Route::get('welcome/fullcalendar',[ReservationController::class,'getAllReservationsLanding'])->name('welcome.fullcalendar');
 
 
 

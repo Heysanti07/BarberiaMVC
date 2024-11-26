@@ -2,7 +2,7 @@
     <!-- LOGO -->
     <div class="navbar-brand-box">
         <!-- Dark Logo-->
-        <a href="index.html" class="logo logo-dark">
+        <a href="#" class="logo logo-dark">
             <span class="logo-sm">
                 <img src="{{ asset ('assets/images/LOGO.png')}}" alt="" height="50">
             </span>
