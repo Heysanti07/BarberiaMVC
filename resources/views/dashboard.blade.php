@@ -21,7 +21,7 @@
     <div class="col-lg-12">
         <div class="card">
             <div class="card-body">
-                <h4 class="mb-sm-0">Bienvendo, {{ Auth::user()->nombre }} {{ Auth::user()->apellido }}</h4>
+                <h4 class="mb-sm-0">Bienvenido, {{ Auth::user()->nombre }} {{ Auth::user()->apellido }}</h4>
                 <br>
                 <h4 class="mb-sm-0">Es un placer tener de vuelta.</h4>
             </div>

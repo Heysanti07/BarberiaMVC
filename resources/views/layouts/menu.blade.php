@@ -2,7 +2,7 @@
     <!-- LOGO -->
     <div class="navbar-brand-box">
         <!-- Dark Logo-->
-        <a href="#" class="logo logo-dark">
+        <a  class="logo logo-dark">
             <span class="logo-sm">
                 <img src="{{ asset ('assets/images/LOGO.png')}}" alt="" height="50">
             </span>
@@ -11,7 +11,7 @@
             </span>
         </a>
         <!-- Light Logo-->
-        <a href="index.html" class="logo logo-light">
+        <a  class="logo logo-light">
             <span class="logo-sm">
                 <img src="{{ asset ('assets/images/LOGO.png')}}" alt="" height="78">
             </span>
@@ -37,28 +37,28 @@
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{ route('cliente.reserva') }}">
-                        <i class="ri-dashboard-2-line"></i> <span>Nueva Reserva</span>
+                        <i class="ri-book-open-fill"></i> <span>Nueva Reserva</span>
                     </a>
 
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{ route('cliente.reservas') }}">
-                        <i class="ri-dashboard-2-line"></i> <span>Consultar Reserva</span>
+                        <i class="ri-contacts-book-2-fill"></i> <span>Consultar Reserva</span>
                     </a>
 
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{ route('cliente.calendario') }}">
-                        <i class="ri-dashboard-2-line"></i> <span>Calendario</span>
+                        <i class="ri-calendar-todo-fill"></i> <span>Calendario</span>
                     </a>
 
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{ route('cliente.pagos') }}">
-                        <i class="ri-dashboard-2-line"></i> <span>Ver Pagos</span>
+                        <i class="ri-book-open-fill"></i> <span>Ver Pagos</span>
                     </a>
 
                 </li>
@@ -70,7 +70,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{ route('asesor.calendario') }}">
-                        <i class="ri-dashboard-2-line"></i> <span>Calendario</span>
+                        <i class="ri-calendar-todo-fill"></i> <span>Calendario</span>
                     </a>
 
                 </li>
@@ -83,33 +83,33 @@
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{route('reservations.create')}}">
-                        <i class="ri-dashboard-2-line"></i> <span>Nueva Reserva</span>
+                        <i class=" ri-book-open-fill"></i> <span>Nueva Reserva</span>
                     </a>
 
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{ route('reservations.index') }}">
-                        <i class="ri-dashboard-2-line"></i> <span>Consultar Reserva</span>
+                        <i class="ri-contacts-book-2-fill"></i> <span>Consultar Reserva</span>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{ route('reservations.calendario') }}">
-                        <i class="ri-dashboard-2-line"></i> <span>Calendario</span>
+                        <i class="ri-calendar-todo-fill"></i> <span>Calendario</span>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{ route('reservations.pagos') }}">
-                        <i class="ri-dashboard-2-line"></i> <span>Ver Pagos</span>
+                        <i class="ri-bank-card-fill"></i> <span>Ver Pagos</span>
                     </a>
 
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{ route('usuarios.index') }}">
-                        <i class="ri-dashboard-2-line"></i> <span>Mantenimiento de Usuarios</span>
+                        <i class="ri-user-settings-fill"></i> <span>Mantenimiento de Usuarios</span>
                     </a>
 
                 </li>
