@@ -53,11 +53,13 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
-    public function role() {
+    public function role()
+    {
         return $this->belongsTo(Role::class, 'rol_id');
     }
 
-    public function reservations() {
+    public function reservations()
+    {
         return $this->hasMany(Reservation::class);
     }
 
@@ -66,4 +68,8 @@ class User extends Authenticatable
         return $this->hasMany(Reservation::class, 'consultant_id'); // Relación con reservas donde el usuario es consultor
     }
 
+    public function roles()
+    {
+        return $this->belongsTo(Role::class, 'role_id');
+    }
 }
